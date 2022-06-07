@@ -10,8 +10,8 @@ pipeline {
        
         stage('Test') {
             steps {
-                sh 'true'
-                // bat 'mvnw.cmd test'
+                // sh 'true'
+                bat 'mvnw.cmd test'
             }
 
             post {
