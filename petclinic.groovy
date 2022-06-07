@@ -10,7 +10,7 @@ pipeline {
        
         stage('Test') {
             steps {
-                sh "false"
+                sh "true"
                 // bat 'mvnw.cmd test'
             }
 
